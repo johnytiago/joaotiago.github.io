@@ -2,7 +2,7 @@ var Hapi = require('hapi');
 var server = new Hapi.Server();
 server.connection({ 
     host: 'localhost', 
-    port: 80 
+    port: 8080
 });
 var path = require('path');
 
