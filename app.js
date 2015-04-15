@@ -1,5 +1,9 @@
-var Hapi = require('hapi'),
-	server = Hapi.createServer(8080);
+var Hapi = require('hapi');
+var server = new Hapi.Server();
+server.connection({ 
+    host: 'localhost', 
+    port: 8000 
+});
 var path = require('path');
 
 // ROUTES
