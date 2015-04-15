@@ -1,0 +1,16 @@
+div{
+	font-family: 'Raleway', sans-serif;}
+p{
+	text-align: justify}
+div.header{
+	background-color: rgb(52, 73, 94);}
+div.header h2{
+	font-weight: bold;}
+div.header h2, div.header p{
+	color: white;}
+div.header img {
+	border: 2px solid rgb(236, 240, 241);
+	margin: 8px}
+a.me{
+	color: rgb(41, 128, 185);
+}
