@@ -1,16 +1,32 @@
 div{
-	font-family: 'Raleway', sans-serif;}
+	font-family: 'Raleway', sans-serif;
+}
 p{
-	text-align: justify}
+	text-align: justify;
+}
 div.header{
-	background-color: rgb(52, 73, 94);}
+	background-color: rgb(52, 73, 94);
+}
 div.header h2{
-	font-weight: bold;}
+	font-weight: bold;
+}
 div.header h2, div.header p{
-	color: white;}
+	color: white;
+}
+div.header a{
+	color: white;
+  text-decoration: none;
+}
+div.header a:hover{
+  color: rgb(255, 226, 182);
+}
 div.header img {
 	border: 2px solid rgb(236, 240, 241);
-	margin: 8px}
+	margin: 8px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
 a.me{
 	color: rgb(41, 128, 185);
 }
