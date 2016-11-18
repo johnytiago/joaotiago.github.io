@@ -1,56 +1,124 @@
 <html>
-	<head>
-		<title>JoaoTiago</title>
+  <head>
+    <title>JoaoTiago</title>
     <meta charset="UTF-8"> 
-		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
-		<link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="./public/css/style.css">
-	</head>
-	<body>
-		<div class="container">
-			<div class="row header">
-        <div class="col-md-4">
-          <img src="./public/images/johnytiago.jpg">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./public/css/style.css">
+    <script src="./public/js/scroll.js"></script>
+  </head>
+  <body>
+
+    <div class="background">
+      <img class="cover" src="./public/images/lisboa.jpg">
+      <div class="scrollbtn">
+        <a class="page-scroll" href="#my-info"><span></span></a>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="container-fluid">
+        <div class="rows">
+          <div class="
+            col-lg-8 col-lg-offset-2 
+            col-sm-10 col-sm-offset-1 
+            col-xs-10 col-xs-offset-1">
+            <div class="
+              col-lg-3 col-lg-offset-0 
+              col-md-3 col-lg-offset-1 
+              col-sm-3 col-sm-offset-0
+              col-xs-6 col-xs-offset-3">
+              <img class="avatar" src="./public/images/jt.png">
+            </div>
+            <div class="
+              col-lg-9 col-lg-offset-0 
+              col-md-8
+              col-sm-9 
+              col-xs-12">
+              <h1 class="intro"><b>Hi! I'm João Tiago</b></h1>
+              <p class="about-me">I am a proud masters student in Networks and Computer science at Instituto Superior Técnico 
+                who is thrilled about challenges and solving problems. 
+                Web developer who loves Node.JS. 
+                Organizer at <a target="_blank" href="http://www.meetup.com/require-lx/"><b>Require('lx')</b></a>,
+                creator of <a target="_blank" href="https://www.facebook.com/TagusTechSeries/"><b>TAGUS Tech Series</b></a> and 
+                member of <a href="https://sinfo.org" target="_blank"><b>SINFO's</b></a> Development team.
+              </p>
+            </div>
+          </div>
         </div>
-				<div class="col-md-6"> 
-					<h2>About Me</h2>
-          <p>I am a proud masters student in Networks and Computer science at Instituto Superior Técnico who is thrilled about challenges and solving problems. Web developer who loves Node.JS. Creator of <a target="_blank" href="https://www.facebook.com/TagusTechSeries/">TAGUS Tech Series</a> and member of <a href="https://sinfo.org" target="_blank">SINFO's</a> Development team.
-          <br>
-          <br>
-          Coming from the countryside, I am an active dude who loves working and physical activity. I FREAKING love Jiu Jitsu! I also crazy about board games and playing the guitar.</p>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			
-			<h2>Get in touch with me!</h2>
-			<ul>
-				<p><a class="me" href="https://www.twitter.com/johnytiago" target="_blank">@johnytiago</a></p>
-				<p><a class="me" href="mailto:joaotiago.gogo@gmail.com">Wanna talk to me? Send me an email!</a></p>
-			</ul>
-				
-			<h2>My code</h2>
-			<ul>
-				<p><a class="me" href="http://www.github.com/johnytiago" target="_blank">johnytiago@github</a></p>
-			</ul>
+      </div>
+    </div>
 
-			<h2>Experiences</h2>
-			<p><ul>2016 - Present - Part-time developer at YLD.</ul></p>
-			<p><ul>2015 - Mid-term Node.js internship at YLD building a Web App mentored by <a target="_blank" href="http://daviddias.me">David Dias</a> an absolutely awesome friend who helped me boosting my Node skills.</ul></p>
-			<p><ul>2012 - Head Organizer of Highschool Senior year Spring break trip.</ul></p>
-			<p><ul>2011 - Organizer Highschool Easter Break camping trip.</ul></p>
+    <div class="container-fluid">
+      <div class="row">
+        <span id="my-info"></span>
+        <h1 class="title">About myself</h1>
+        <p class="about-myself">Coming from the countryside, I'm a proactive and committed human being that loves working. The thing that excites me the most is the possibility of working with inspiring people that are not only technicaly awesome but also have great charisma. <br> I FREAKING love Jiu Jitsu! I'm also crazy about board games and playing guitar.</p>
+        <hr class="line">
+      </div>
+      <div class="row">
+        <div class="col-md-1 col-md-offset-4 col-xs-2 col-xs-offset-2">
+          <a target="_blank" href="https://github.com/johnytiago">
+            <img class="icon" src="./public/images/icons/github.svg" alt="github"/>
+          </a>
+        </div>
+        <div class="col-md-1 col-xs-2">
+          <a target="_blank" href="https://www.twitter.com/johnytiago" target="_blank">
+            <img class="icon" src="./public/images/icons/twitter.svg" alt="twitter"/>
+          </a>
+        </div>
+        <div class="col-md-1 col-xs-2">
+          <a target="_blank" href="https://pt.linkedin.com/in/joão-tiago-a8ab6780" target="_blank">
+            <img class="icon" src="./public/images/icons/linkedin.svg" alt="linkedin"/>
+          </a>
+        </div>
+        <div class="col-md-1 col-xs-2">
+          <a href="mailto:joaotiago.gogo@gmail.com">
+            <img class="icon" src="./public/images/icons/email.svg" alt="email"/>
+          </a>
+        </div>
+      </div>
+    </div>
 
-			<h2>Summer Jobs</h2>
-      <p><ul>2015 - Internship at <a href="https://www.yld.io" target="_blank">YLD.io</a> building a Nodejs platform mentored by <a target="_blank" href="https://about.me/Soarez">Igor Soarez</a> and the rest of the most awesome crew on the planet I had the pleasure to work with.</ul></p>
-			<p><ul>2014 - Summer job on the seasonal pear crops.</ul></p>
-			<p><ul>2013 - Summer job on the seasonal pear crops.</ul></p>
-			<p><ul>2012 - Summer job as a receptionist at <a target="_blank" href="http://www.acman.pt">ACMAN - Manutenção e Comércio de Veículos, SA.</a></ul></p>
+    <div class="container cv">
+      <div class="row">
+        <h2>Experiences</h2>
+        <ul>
+          <li><b>2016 - present</b> - Part-time developer at YLD. <b>Front-end</b>;</li>
+          <li><b>2016 - present</b> - Developer at <a target="_blank" href="https://sinfo.org"><b>SINFO</b></a>. <b>Fullstack</b>;</li>
+          <li><b>2016 - present</b> - Organizer at <a target="_blank" href="http://www.meetup.com/require-lx/"><b>Require('lx')</b></a>;</li>
+          <li><b>2016</b> - Creator of <a target="_blank" href="https://www.facebook.com/TagusTechSeries/"><b>Tagus Tech Series</b></a>, my attempt to gring the campus students closer to the Lisbon community through series of talks;</li>
+          <li><b>2015</b> - Mid-term Node.js internship at YLD building a Web App mentored by <a target="_blank" href="http://daviddias.me"><b>David Dias</b></a> an absolutely awesome friend who helped me boosting my Node.JS skills;</li>
+          <li><b>2012</b> - Head Organizer of Highschool Senior year Spring break trip;</li>
+          <li><b>2011</b> - Organizer Highschool mid-term camping trip;</li>
+        </ul>
 
-			<h2>Talks</h2>
-			<ul>
-				<p><b>“Learning Node.JS in (almost) a week”</b> - My contribution to the awesome Node.JS community at <a target="_blank" href="http://www.meetup.com/require-lx/">require(‘lx’)</a>, a walkthrough of the problems I faced when building my Quiz app. 
-				<p><a href="https://docs.google.com/presentation/d/1UefhqNR35ejUDAdXVPW6O9Mj2nIdGED3UUvWyNtksSY/edit?usp=sharing" target="_blank">Slides link here</a></p></p>
-			</ul>
-		</div>
-	</body>
+        <h2>Summer Jobs</h2>
+        <ul>
+          <li><b>2015 </b> - Internship at <a href="https://www.yld.io" target="_blank">YLD.io</a> building a Nodejs SP Application mentored by <a target="_blank" href="https://about.me/Soarez">Igor Soarez</a>, <b>Fullstack</b>;</li>
+          <li><b>201{3..4} </b> - Seasonal work at pear crops;</li>
+          <li><b>2012 </b> - Receptionist at <a target="_blank" href="http://www.acman.pt">ACMAN - Manutenção e Comércio de Veículos, SA;</a></li>
+        </ul>
+
+        <h2>Talks & Workshops</h2>
+        <ul>
+          <li>
+            <b>2016 </b> - <b>“$git pull origin workshop”</b> <a href="https://www.facebook.com/events/192351631133085/" target="_blank">(link)</a>;
+          </li>
+          <li>
+            <b>2015 </b> - <b>“Learning Node.JS in (almost) a week”</b> - My contribution to the awesome Node.JS community at <a target="_blank" href="http://www.meetup.com/require-lx/">require(‘lx’)</a>, a walkthrough of the problems I faced when building my first app; 
+            <a href="https://docs.google.com/presentation/d/1UefhqNR35ejUDAdXVPW6O9Mj2nIdGED3UUvWyNtksSY/edit?usp=sharing" target="_blank">
+                Slides link here
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <h5>Made with ♡ by João Tiago</h5>
+    </footer>
+
+  </body>
 </html>
