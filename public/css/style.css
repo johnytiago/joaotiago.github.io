@@ -54,7 +54,7 @@ p.about-me {
   .about-me a { color: #0099ff; }
 }
 @media screen and (min-width: 1400px) { 
-  h1.intro { font-size: 2.7vw; }
+  h1.intro { font-size: 2.3vw; }
   p.about-me { font-size: 1.2vw; }
 }
 
@@ -84,7 +84,7 @@ p.about-myself {
   font-size: 4.2vw; }
 }
 @media screen and (min-width: 1400px) { 
-  p.about-myself { font-size: 1.2vw; }
+  p.about-myself { font-size: 1.0vw; }
 }
 
 hr.line {
@@ -95,7 +95,7 @@ hr.line {
 }
 
 img.icon {
-  width: 80%;
+  width: 65%;
   margin: auto;
   opacity: 0.86;
 }
@@ -108,8 +108,11 @@ img.icon:hover {
   }
 }
 
+dt h4 {
+  font-size: 16px
+}
+
 .cv li {
-  list-style-type: none;
   line-height: 27px;
   font-size: 1.18vw;
 }
@@ -142,7 +145,7 @@ img.icon:hover {
   }
   .cv li {
     line-height: 1.7vw;
-    font-size: 1.3vw;
+    font-size: 1vw;
   }
 }
 
